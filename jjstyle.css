@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS";
+
+  
+}
+.container {
+  margin: 0 auto;
+  width: auto;
+}
+.container {
+  margin: 0px auto;
+  width: 1780px;
+}
+
+section {
+	padding-bottom: 110px;
+	}
+
+
+.section-main {
+  min-height: 100vh; /*vh - 100% от высоты окна*/
+  background-image: url("main-bg.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  }
+
+  header {
+	height: 100px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+header a {
+	margin: 0 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	line-height: 100px;
+	font-size: 24px;
+	transition: .5s;
+}
+header a:hover {
+	color: #42ebf4;
+}
+
+.logo {
+	position: relative;
+	width: 473px;
+	margin: 150px auto 55px;
+}
+h1 {
+	margin-bottom: 140px;
+	font-size: 60px;
+}
+
+h5 {
+	position: relative;
+	font-size: 16px;	
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	}
+
+header.dark {
+	border-bottom: 1px solid #bebebe;
+}
+
+header.dark a,
+h5.dark {
+	color: #bebebe;
+}
+.content {
+	padding: 75px 100px;
+	margin-bottom: 80px;
+}
+.man {
+	float: left;
+	margin-right: 55px;
+	}
+
+h2 {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 75px;
+	font-size: 24px;
+	line-height: 50px;
+}
+.section-portfolio {
+	background-image: url("portfolio-bg.jpg");
+	text-align: center;
+	color: white;
+}
+.photo-row {
+	margin-bottom: 50px;
+}
+
+.photo-row img {
+	margin: 0 25px;
+}
+.section-contacts {
+	text-align: center;
+}
+.contact-type {
+	margin: 65px 0 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.contact-type.first {
+	margin-top: 200px;
+}
+.mail {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.phone {
+	font-size: 35px;
+}
+
+.social {
+	margin: 0 14px;
+	text-decoration: none;
+}
+.contact-type + a {
+	text-decoration: none;
+	color: black;
+}
+footer {
+	margin-top: 205px;
+	height: 105px;
+	line-height: 105px;
+	border-top: 1px solid #bebebe;
+	color: #bebebe;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+footer p {
+	margin-bottom: 0;
+}
+h5:before,
+h5:after {
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+	display: block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	transform: rotate(45deg) translateX(-50%);
+	transition: .5s;
+}
+
+h5:after {
+	bottom: -35px;
+}
+h5.dark:before,
+h5.dark:after {
+	border-right: 2px solid #bebebe;
+	border-bottom: 2px solid #bebebe;
+}
+
+.logo:before {
+	position: absolute;
+	top: 37px;
+	right: 0;
+	display: block;
+	content: "TM";
+	font-size: 40px;
+}
+
+header a:hover {
+	color: #42ebf4;
+}
+
+h5:hover:before {
+	bottom: -45px;
+	border-radius: 50%;
+}
+
+h5:hover:after {
+	bottom: -55px;
+	border-radius: 50%;
+	transform: rotate(-45deg), translateX(-50%);
+}
